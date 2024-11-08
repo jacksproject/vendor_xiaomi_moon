@@ -1,0 +1,20 @@
+#N19A code for HQ-348358 by sunyuting at 2024/02/01 start
+on post-fs-data
+   mkdir /data/vendor/fpdump
+   chown system system /data/vendor/fpdump
+   chmod 0700 /data/vendor/fpdump
+#N19A code for HQ-348358 by sunyuting at 2024/02/01 start
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    class late_start
+    user system
+    group system input uhid
+    # N19A code for HQ-348450 by sunyuting at 2024/1/11 start
+    #writepid /dev/cpuset/system-background/tasks
+    # N19A code for HQ-348450 by sunyuting at 2024/1/11 end
+#N19A code for HQ-348402 by sunyuting at 2023/12/22 start
+on property:vendor.fps_hal.restartimes=max
+    stop vendor.fps_hal
+#N19A code for HQ-348402 by sunyuting at 2023/12/22 end
