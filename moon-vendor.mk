@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
     vendor/xiaomi/moon/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/xiaomi/moon/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
-    vendor/xiaomi/moon/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
     vendor/xiaomi/moon/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/moon/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/moon/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
@@ -198,18 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/anc_night_params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_night_params.json \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/beauty_config_cn.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_config_cn.json \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/beauty_config_gl.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_config_gl.json \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_ov13b10_ofilm_front_ii_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_ov13b10_ofilm_front_ii_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_ov13b10_sunny_front_i_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_ov13b10_sunny_front_i_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_s5k3l6_aac_front_iii_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_s5k3l6_aac_front_iii_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_s5khm6_aac_main_ii_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_s5khm6_aac_main_ii_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_s5khm6_sunny_main_i_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_s5khm6_sunny_main_i_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_hdr_tuning_params_s5khm6_truly_main_iii_hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_hdr_tuning_params_s5khm6_truly_main_iii_hdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_ov13b10_ofilm_front_ii_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_ov13b10_ofilm_front_ii_llhdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_ov13b10_sunny_front_i_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_ov13b10_sunny_front_i_llhdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_s5k3l6_aac_front_iii_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_s5k3l6_aac_front_iii_llhdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_s5khm6_aac_main_ii_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_s5khm6_aac_main_ii_llhdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_s5khm6_sunny_main_i_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_s5khm6_sunny_main_i_llhdr.xml \
-    vendor/xiaomi/moon/proprietary/vendor/etc/camera/morpho_llhdr_tuning_params_s5khm6_truly_main_iii_llhdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_llhdr_tuning_params_s5khm6_truly_main_iii_llhdr.xml \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/resources/TStools_default_param.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/TStools_default_param.json \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/resources/default_param.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/default_param.json \
     vendor/xiaomi/moon/proprietary/vendor/etc/camera/resources/model/2722133617:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/model/2722133617 \
@@ -491,8 +478,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/xiaomi/moon/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
     vendor/xiaomi/moon/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/xiaomi/moon/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
-    vendor/xiaomi/moon/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/moon/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/moon/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/moon/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -608,7 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -637,7 +621,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
@@ -652,8 +635,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libpq_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
@@ -669,20 +650,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libdpframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libdpframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmtk_drvb.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libmtk_drvb.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libnir_neon_driver.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6768/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/moon/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
@@ -856,7 +830,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
@@ -913,7 +886,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
@@ -973,8 +945,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/libpq_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
@@ -996,16 +966,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
+    vendor/xiaomi/moon/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libdpframework.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmtk_drvb.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libmtk_drvb.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libnir_neon_driver.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/mt6768/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6768/libpq_prot.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/ov13b10_ofilm_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov13b10_ofilm_front_mipi_raw_IdxMgr.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/ov13b10_ofilm_front_mipi_raw_blk_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov13b10_ofilm_front_mipi_raw_blk_IdxMgr.so \
@@ -1051,9 +1017,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.0.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
-    vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.2.so \
+    vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/xiaomi/moon/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.10.so \
